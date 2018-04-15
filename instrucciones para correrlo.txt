@@ -1,0 +1,13 @@
+installar las versiones que te pide el repo...
+	- asdf install erlang XX.X
+	- asdf install elixir XX.X
+Cambiar de versión
+	- asdf global erlang XX.X (deseado)
+	- asdf global elixir XX.X (deseado)
+ejecutar
+	- asdf local.hex
+	- asdf local.rebar
+	- mix archive.install hex nerves_bootstrap "~> 1.0-rc"
+
+Para que pueda correr nerves con una versión pasada
+	sudo dpkg -i fwup_0.8.0_amd64.deb
